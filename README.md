@@ -11,8 +11,4 @@ To run a 4 nodes test:
 6. in terminal window 4: docker exec -it berad-node2 bash -c ./scripts/seed-start.sh
 7. in terminal window 5: docker exec -it berad-node3 bash -c ./scripts/seed-start.sh
 
-note: added "-it" in steps 5-8, so that ctrl+c can kill the process
-
-To run a 2 nodes test:
-in step 4, use network-init-2.sh instead
-then use 2 nodes in the rest of the steps
+note: added "-it" in steps 4-7, so that ctrl+c can kill the process
